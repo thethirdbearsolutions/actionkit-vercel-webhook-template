@@ -7,4 +7,5 @@ module.exports = async (req, res) => {
     res.send(resp.body);
     return;
   } 
+  const { action, user, timestamp, type } = body;
 }
